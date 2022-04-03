@@ -1,0 +1,21 @@
+package com.sebone.javaprograms.program;
+
+public class VowelCheckingInString {
+	public boolean isVowelAvailable(String str) {
+		int strLength;
+		try {
+			strLength = str.length();
+		}catch(Exception e) {
+			e.printStackTrace();
+			System.out.println("Bhanu");
+			return false;
+		}
+		
+		for(int iterator = 0; iterator < str.length(); iterator++) {
+			if(str.charAt(iterator) == 'a' || str.charAt(iterator) == 'e' || str.charAt(iterator) == 'i' || str.charAt(iterator) == 'o' ||str.charAt(iterator) == 'u') {
+				return true;
+			}
+		}
+		return false;
+	}
+}

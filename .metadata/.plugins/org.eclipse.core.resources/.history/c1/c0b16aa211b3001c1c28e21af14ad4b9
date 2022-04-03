@@ -1,0 +1,23 @@
+package com.sebone.javaprograms.program;
+
+import java.util.ArrayList;
+
+public class OddNumberCheckingInList {
+	public boolean isOnlyOddAvailable(ArrayList<Integer> numberList) {
+		int listLength;
+		boolean flag = false;
+		try {
+			listLength = numberList.size();
+		}catch(NullPointerException e) {
+			e.printStackTrace();
+			return flag;
+		}
+		
+		for(int iterator = 0; iterator < listLength; iterator++) {
+			if(numberList.get(iterator) % 2 == 0)
+				return false;
+		}
+		
+		return flag;
+	}
+}

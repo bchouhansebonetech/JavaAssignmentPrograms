@@ -1,0 +1,23 @@
+package com.sebone.javaprograms.programsjunit;
+
+import static org.junit.Assert.assertArrayEquals;
+import static org.junit.jupiter.api.Assertions.*;
+
+import java.util.ArrayList;
+import java.util.Arrays;
+
+import org.junit.jupiter.api.Test;
+
+import com.sebone.javaprograms.program.MergeSort;
+
+class MergeSortTest {
+
+	@Test
+	void mergeSortArray() {
+		MergeSort mergeSort = new MergeSort();
+		
+		ArrayList<Integer> numList = new ArrayList<Integer>( Arrays.asList(1, 45, 64, 3, 22, 88));
+		assertArrayEquals(numList.toArray(), mergeSort.mergeSortArray(new ArrayList<Integer>( Arrays.asList(1, 45, 64, 3, 22, 88)), 0, 5).toArray());
+	}
+
+}

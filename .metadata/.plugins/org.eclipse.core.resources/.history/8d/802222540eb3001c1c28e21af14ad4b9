@@ -1,0 +1,21 @@
+package com.sebone.javaprograms.programsjunit;
+
+import static org.junit.Assert.assertEquals;
+import static org.junit.Assert.fail;
+
+import org.junit.jupiter.api.Test;
+
+import com.sebone.javaprograms.program.VowelCheckingInString;
+
+public class VowelCheckingInStringTest {
+
+	@Test
+	public void test() {
+		VowelCheckingInString vowelCheckingInString = new VowelCheckingInString();
+		assertEquals(false, vowelCheckingInString.isVowelAvailable(null));
+		assertEquals(true, vowelCheckingInString.isVowelAvailable("bhanu"));
+		assertEquals(false, vowelCheckingInString.isVowelAvailable("bcd"));
+		assertEquals(false, vowelCheckingInString.isVowelAvailable(""));
+	}
+
+}

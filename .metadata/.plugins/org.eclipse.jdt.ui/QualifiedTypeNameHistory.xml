@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<qualifiedTypeNameHistroy>
+    <fullyQualifiedTypeName name="org.junit.jupiter.api.Test"/>
+    <fullyQualifiedTypeName name="com.sebone.javaprograms.program.VowelCheckingInString"/>
+    <fullyQualifiedTypeName name="java.util.ArrayList"/>
+    <fullyQualifiedTypeName name="java.util.Arrays"/>
+    <fullyQualifiedTypeName name="com.sebone.javaprograms.program.OddNumberCheckingInList"/>
+    <fullyQualifiedTypeName name="com.sebone.javaprograms.program.SpacesRemoverFromString"/>
+</qualifiedTypeNameHistroy>

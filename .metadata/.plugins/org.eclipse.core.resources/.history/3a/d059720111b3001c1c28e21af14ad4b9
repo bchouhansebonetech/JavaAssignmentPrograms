@@ -1,0 +1,17 @@
+package com.sebone.javaprograms.programsjunit;
+
+import static org.junit.jupiter.api.Assertions.*;
+
+import java.util.ArrayList;
+import java.util.Arrays;
+
+import org.junit.jupiter.api.Test;
+
+class OddNumberCheckingInListTest {
+
+	@Test
+	void isOnlyOddAvailable() {
+		assertEquals(true, new ArrayList<Integer>( Arrays.asList(1, 3, 5)));
+	}
+
+}

@@ -1,0 +1,5 @@
+<?xml version="1.0" encoding="UTF-8"?><testrun name="MergeSortTest" project="JavaPracticePrograms" tests="1" started="1" failures="0" errors="0" ignored="0">
+  <testsuite name="com.sebone.javaprograms.programsjunit.MergeSortTest" time="0.025" displayname="MergeSortTest" uniqueid="[engine:junit-jupiter]/[class:com.sebone.javaprograms.programsjunit.MergeSortTest]">
+    <testcase name="mergeSortArray" classname="com.sebone.javaprograms.programsjunit.MergeSortTest" time="0.025" displayname="mergeSortArray()" uniqueid="[engine:junit-jupiter]/[class:com.sebone.javaprograms.programsjunit.MergeSortTest]/[method:mergeSortArray()]"/>
+  </testsuite>
+</testrun>

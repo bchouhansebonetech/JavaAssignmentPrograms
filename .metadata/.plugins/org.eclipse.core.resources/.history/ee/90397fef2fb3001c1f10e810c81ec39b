@@ -1,0 +1,18 @@
+package com.sebone.javaprograms.programsjunit;
+
+import static org.junit.jupiter.api.Assertions.*;
+
+import org.junit.jupiter.api.Test;
+
+import com.sebone.javaprograms.program.LeadTrailSpacesRemover;
+
+class LeadTrailSpacesRemoverTest {
+
+	@Test
+	void removeLeadTrailSpacesFromStringTest() {
+		LeadTrailSpacesRemover leadTrailSpacesRemover = new LeadTrailSpacesRemover();
+		
+		assertEquals(null, leadTrailSpacesRemover.removeLeadTrailSpacesFromString(null));
+	}
+
+}

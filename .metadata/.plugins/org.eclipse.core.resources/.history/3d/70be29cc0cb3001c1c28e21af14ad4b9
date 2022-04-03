@@ -1,0 +1,14 @@
+package com.sebone.javaprograms.programsjunit;
+
+import static org.junit.Assert.*;
+
+import org.junit.Test;
+
+public class VowelCheckingInStringTest {
+
+	@Test
+	public void test() {
+		fail("Not yet implemented");
+	}
+
+}

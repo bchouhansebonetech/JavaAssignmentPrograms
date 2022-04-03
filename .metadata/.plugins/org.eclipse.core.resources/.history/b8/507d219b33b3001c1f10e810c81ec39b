@@ -1,0 +1,20 @@
+package com.sebone.javaprograms.program;
+
+import java.util.ArrayList;
+import java.util.Arrays;
+
+public class MergeSort {
+	public ArrayList<Integer> mergeSortArray(ArrayList<Integer> nums, int left, int right){
+		if(left == right) {
+			return new ArrayList<Integer>( Arrays.asList(nums.get(right)));
+		}
+		
+		int mid = (left + right) / 2;
+		
+		return mergerTwoArrayList(mergeSortArray(nums, left, mid), mergeSortArray(nums, mid + 1, right));
+	}
+	
+	private ArrayList<Integer> mergeTwoArrayList(ArrayList<Integer> nums1, ArrayList<Integer> nums2){
+		
+	}
+}
